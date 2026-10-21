@@ -11,11 +11,9 @@ uv run python run.py                      # data/ -> warehouse/ (DuckDB + Iceber
 uv run python tools/check.py              # contract self-check
 ```
 
-> Replace every `<...>` below. Keep it short: tables and a few sentences are enough.
-
 ## Design
 
-< Pipeline: SQLite + supplier CSV files → DuckDB raw → dbt staging → silver SCD2 + quality quarantine → gold weekly margin → Apache Iceberg. >
+Pipeline: SQLite + supplier CSV files → DuckDB raw → dbt staging → silver SCD2 + quality quarantine → gold weekly margin → Apache Iceberg.
 
 
 | Model | Layer | Grain (one row per ...) | Materialization |
