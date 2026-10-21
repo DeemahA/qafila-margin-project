@@ -1,6 +1,6 @@
 # Qafila gross margin
 
-Submitted by: <Deemah Alsalamah> — academy: @SDAIAAcademy
+Submitted by: Deemah Alsalamah — academy: @SDAIAAcademy
 
 The task, rules and grading are in [BRIEF.md](BRIEF.md).
 
@@ -30,7 +30,6 @@ uv run python tools/check.py              # contract self-check
 
 **How each order line finds its cost:** Delivered order lines are matched with the product cost based on the order date in Riyadh time. If no matching cost is found, the line and its revenue are still counted, but no cost is added.
 
-## Data problems I found
 
 ## Data problems I found
 
@@ -42,7 +41,6 @@ uv run python tools/check.py              # contract self-check
 | Duplicate prices for the same SKU and date | Supplier CSV files | Not counted separately | Used the price from the latest filename |
 | Late price correction | W39 correction file | Not counted separately | Updated the price history while keeping older Iceberg snapshots |
 
-## Tests
 
 ## Tests
 
@@ -55,7 +53,6 @@ uv run python tools/check.py              # contract self-check
 
 All 11 dbt tests passed with no errors.
 
-## Re-runs and the correction
 
 ## Re-runs and the correction
 
@@ -72,8 +69,6 @@ For example, SKU `QF-BAK-1058` had a cost of **3.58 SAR** on `2026-09-21` before
 
 Both versions were checked using Iceberg snapshots.
 
-
-## What I'd do next
 
 ## What I'd do next
 
