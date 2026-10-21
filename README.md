@@ -81,4 +81,4 @@ With much larger data, rebuilding all tables every time would become slow. The n
 
 ## AI assistance
 
-AI was used to help understand the project requirements and explain dbt and Iceberg concepts more clearly and quickly. It also helped with writing and reviewing parts of the SQL and Python code, finding solutions to errors faster, and improving the wording and formatting of the README, including organizing the tables. The pipeline was run and tested locally.
+AI was used to help understand the project requirements and explain dbt and Iceberg concepts more clearly and quickly. It also helped with writing and reviewing parts of the SQL and Python code, finding solutions to errors faster, and improving the wording and formatting of the README, including organizing the tables. AI also provided step-by-step guidance on using Git, connecting the local project to GitHub and uploading the project.
